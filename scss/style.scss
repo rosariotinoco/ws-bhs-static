@@ -1,0 +1,23 @@
+@import 'modules/_variables.scss';
+@import 'modules/_defaults.scss';
+@import 'partials/_general.scss';
+@import 'partials/_header.scss';
+@import 'partials/_main.scss';
+@import 'partials/_sidebar.scss';
+@import 'partials/_footer.scss';
+h3 {
+    color: $boulder;
+}
+
+footer {
+    // background-color: $blue-zodiac;
+}
+
+footer a {
+    color: $white;
+}
+
+h4 {
+    background-color: $black-pearl;
+    color: $white;
+}

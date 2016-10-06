@@ -1,0 +1,23 @@
+body {
+    background: $mirage;
+    background: -webkit-linear-gradient(to bottom, $mirage, $blue-pearl);
+    background: linear-gradient(to bottom, $mirage, $blue-pearl);
+    font-family: "Arial", "Sans-serif";
+}
+
+.container {
+    width: 960px;
+    background-color: $blue-zodiac;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h3 {
+    color: $meteor;
+    // margin-left: 20px;
+    // margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+}

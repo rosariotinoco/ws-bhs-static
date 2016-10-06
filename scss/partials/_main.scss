@@ -1,0 +1,82 @@
+    .nav {
+        position: relative;
+        .navi-bar {
+            position: absolute;
+            background-color: $dove-gray;
+            width: 960px;
+            height: 90px;
+            z-index: 1px;
+        }
+        .nav-bar {
+            background: $radiation;
+            background: -webkit-linear-gradient(to bottom, $white, $nuka-tin);
+            background: linear-gradient(to bottom, $white, $nuka-tin);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto 0;
+            height: 60%;
+            padding-top: 13px;
+            padding-left: 145px;
+        }
+        .nav-bar li {
+            font-size: .84rem;
+            text-align: center;
+            display: inline;
+            text-decoration: none;
+        }
+        .nav-bar li::after {
+            content: "|";
+            padding-right: 3px;
+        }
+        .nav-bar li:last-child:after {
+            content: " "
+        }
+        .nav-bar li a {
+            color: $black-pearl;
+            background: ($atomic-tin, 0.0);
+            display: inline-block;
+            padding: 4px 16px;
+        }
+        .nav-bar li a:hover {
+            color: rgba($meteor, 0.3);
+            font-size: .89rem;
+        }
+    }
+    
+    .main-container {
+        padding-top: 90px;
+        background-color: $antique;
+        .content-container {
+            right: 15px;
+            background-color: $nuka-swirl;
+            background: -webkit-linear-gradient(to bottom, $nuka-tin, $antique);
+            background: linear-gradient(to bottom, $nuka-tin, $antique);
+            .main-tag {
+                top: 17px;
+            }
+            .breadcrumb {
+                padding-left: 110px;
+                top: 18.75px;
+                background: rgba(128, 128, 128, 0.0);
+                .breadcrumb-item {
+                    font-size: .75rem;
+                    color: $meteor;
+                }
+                .breadcrumb-item.active {
+                    color: $dove-gray;
+                }
+            }
+        }
+    }
+    
+    .secondary-container {
+        background: $nuka-void;
+        .meat h2 {
+            color: $meteor;
+            padding-top: 25px;
+            font-size: 1.4rem;
+        }
+    }

@@ -1,0 +1,43 @@
+.footer {
+    // height: 200px;
+    width: 960px;
+    // background-color: $blue-zodiac;
+    color: $antique;
+    div {
+        border-right: 1px solid $black-pearl;
+        float: left;
+        width: 25%;
+        padding-left: 15px;
+        h4 {
+            font-size: 1.19rem;
+            background-color: $black-pearl;
+            height: 40px;
+            line-height: 40px;
+            color: $alabaster;
+            white-space: nowrap;
+            width: 200px;
+            text-align: center;
+            font-weight: normal;
+        }
+        &.about-us-footer {
+            h4 {
+                margin-left: 10px;
+            }
+        }
+        &.logos-footer {
+            margin-top: 40px;
+            margin-left: 15px;
+            img {
+                left: 10px;
+                // padding: 5px;
+            }
+        }
+    }
+}
+
+.copyright {
+    color: $white;
+    font-size: .5rem;
+    text-align: center;
+    padding-top: 15px;
+}

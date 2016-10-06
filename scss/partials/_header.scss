@@ -1,0 +1,57 @@
+  .header {
+      position: relative;
+      background-color: $blue-zodiac;
+      height: 55px;
+      /*===============================
+=            Top Nav            =
+===============================*/
+      .mainbhs-logo {
+          position: absolute;
+          z-index: 2;
+      }
+      .top-nav {
+          position: absolute;
+          top: 15px;
+          left: 125px;
+          font-size: 14px;
+      }
+      .top-nav li {
+          display: inline;
+          padding-left: 3px;
+      }
+      .top-nav li::after {
+          content: "|";
+          padding-right: 5px;
+          padding-left: 5px;
+      }
+      .top-nav li:first-child:before {
+          content: " "
+      }
+      .top-nav a {
+          text-decoration: none;
+          color: $white;
+      }
+      .search-container {
+          top: 9px;
+      }
+      .btn-default {
+          padding: .453rem 1rem;
+          background: $radiation;
+          background: -webkit-linear-gradient(to bottom, $white, $nuka-tin);
+          background: linear-gradient(to bottom, $white, $nuka-tin);
+      }
+  }
+  
+  .btn-primary {
+      color: $stimpak;
+      background: $blue-pearl;
+      background: -webkit-linear-gradient(to bottom, $nuka-quantum, $blue-pearl);
+      background: linear-gradient(to bottom, $nuka-quantum, $blue-pearl);
+  }
+  
+  .btn-warning {
+      color: $stimpak;
+      background: $meteor;
+      background: -webkit-linear-gradient(to bottom, $nuka-orange, $meteor);
+      background: linear-gradient(to bottom, $nuka-orange, $meteor);
+  }

@@ -1,0 +1,113 @@
+.side-nav {
+    background-color: $antique;
+    padding: 15px;
+    .nav-box-1 {
+        padding: 15px;
+    }
+    .dropdown {
+        .btn {
+            border-bottom: 1px solid $dove-gray;
+            text-align: left;
+            background: rgba(128, 128, 128, 0.0);
+        }
+        .dropdown-item {
+            background: $nuka-tin;
+            background: -webkit-linear-gradient(to bottom, $silver, $nuka-tin);
+            background: linear-gradient(to bottom, $silver, $nuka-tin);
+            a {
+                color: $dove-gray;
+            }
+            a:hover {
+                color: $black-pearl;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.involved-box {}
+
+.get-inv-header {
+    font-size: 1.5rem;
+    color: $meteor;
+    padding-left: 10px;
+}
+
+.gi-box {
+    background: $atomic-tin;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid $nuka-tin;
+    img {
+        float: left;
+    }
+    p {
+        font-size: .7rem;
+        float: right;
+        width: 60%;
+    }
+}
+
+.ss-header {
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.ss-box {
+    background: $atomic-tin;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid $nuka-tin;
+    img {
+        float: left;
+    }
+    p {
+        font-size: .7rem;
+        float: right;
+        width: 60%;
+    }
+}
+
+.donate-end-btn {
+    background: $meteor;
+    background: -webkit-linear-gradient(to bottom, $nuka-orange, $meteor);
+    background: linear-gradient(to bottom, $nuka-orange, $meteor);
+    margin: 10px;
+    padding-left: 107px;
+    padding-right: 107px;
+}
+
+.articles {
+    top: 18px;
+    .newsroom {
+        padding-right: 15px;
+    }
+    .media-embed {
+        padding-left: 15px;
+    }
+    .latest-news {
+        a {
+            padding-left: 158px;
+        }
+        h3 {
+            border-bottom: 1px solid $blue-pearl;
+            margin-top: 15px;
+            color: $blue-pearl;
+        }
+        h4 {
+            color: $black-pearl;
+            background: rgba(128, 128, 128, 0.0);
+            font-size: 1.0rem;
+        }
+    }
+    .article-date {
+        color: $meteor;
+    }
+    .recent-jobs {
+        h4 {
+            border-bottom: 1px solid $blue-pearl;
+            background: rgba(128, 128, 128, 0.0);
+            color: $blue-pearl;
+        }
+    }
+}
